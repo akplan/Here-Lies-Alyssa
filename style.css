@@ -6,7 +6,7 @@
     z-index: -1;
 
     display: block;
-    background-image: url('http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-59772.jpg');
+    background-image: url('here-lies.jpg');
     width: 1920px;
     height: 1200px;
 
@@ -23,14 +23,20 @@
     box-shadow: 0 1px 5px #000000;
     padding: 10px;
     margin: 1px;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+    opacity: 0.9;
+    filter: alpha(opacity=80);
     position: relative;
-    top: 20%;
     left: 0;
+    top: 6em;
     z-index: 0;
     margin-left: 20px;
     margin-right: 20px;
 
     text-align: center;
+}
+
+.poemcontainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
 }
