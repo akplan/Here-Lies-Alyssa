@@ -1,0 +1,36 @@
+.bgimage{
+    content: "";
+    position: fixed;
+    left: -5px;
+    top: -20px;
+    z-index: -1;
+
+    display: block;
+    background-image: url('http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-59772.jpg');
+    width: 1920px;
+    height: 1200px;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.content{
+    background: #ffffff;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px #000000;
+    padding: 10px;
+    margin: 1px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: relative;
+    top: 20%;
+    left: 0;
+    z-index: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    text-align: center;
+}
